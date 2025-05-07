@@ -21,7 +21,6 @@ Run on terminal:
 
 ```bash
 ./launch.sh
-=======
 chmod +x launch.sh && ./launch.sh
 ```
 📝 The script will:
