@@ -1,5 +1,7 @@
 # 🎸 Chord Matcher
 
+This project detects the chords of an audio file, with the aim of developing other Music Information Retrieval functionalities in an incremental way.
+
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![Made with ❤️](https://img.shields.io/badge/made%20with-%E2%9D%A4-red)](#)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](https://github.com/gosuilgiallo/chord-matcher/issues)
