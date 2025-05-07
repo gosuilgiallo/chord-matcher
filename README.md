@@ -20,7 +20,11 @@ Make sure python3.10+ is installed.
 Run on terminal:  
 
 ```bash
+<<<<<<< HEAD
 ./launch.sh
+=======
+chmod +x launch.sh && ./launch.sh
+>>>>>>> 130ffe95197deaf7b63c3bce8b6b101e907473f7
 ```
 📝 The script will:
 
