@@ -20,5 +20,5 @@ def visualize_results(chroma, chord_segments, y, sr, hop_length):
         plt.axvspan(start, end, alpha=0.3, label=chord)
     plt.legend()
     plt.tight_layout()
-    plt.savefig('../assets/chord_analysis.png', dpi=300)
+    plt.savefig('assets/chord_analysis.png', dpi=300)
     plt.close()

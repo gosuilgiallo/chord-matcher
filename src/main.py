@@ -19,7 +19,7 @@ def main(audio_path):
 if __name__ == "__main__":
     print_banner()
     if len(sys.argv) < 2:
-        audio_path = input("Please enter the path to an audio file (type './chords/Em_C_G_D.wav' for a ready example): ").strip()
+        audio_path = input("Please enter the path to an audio file (type 'chords/Em_C_G_D.wav' for a ready example): ").strip()
     else:
         audio_path = sys.argv[1]
     if not os.path.exists(audio_path):

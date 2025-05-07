@@ -20,26 +20,25 @@ Make sure python3.10+ is installed.
 Run on terminal:  
 
 ```bash
-./launch.sh
-chmod +x launch.sh && ./launch.sh
+chmod +x ./scripts/launch.sh && ./scripts/launch.sh
 ```
 📝 The script will:
 
-- Create a virtual environment in env/
-- Install the required Python packages
-- Run main.py with the audio file you provide  
+- Create a virtual environment in `env/`
+- Install the required Python packages (`requirements.txt`)
+- Run `main.py` with the audio file you provide  
 
 ## 📂 Project Structure
 ```
-├── chord_matching.py
-├── chords.json
-├── features.py
-├── main.py             # Entry point
-├── utils.py
-├── visualization.py
+.
+├── assets              # contains report image file
+├── chords              # audio files for tests
+├── data
+├── LICENSE
+├── README.md
 ├── requirements.txt
-├── launch.sh           # 🚀 One-command launcher
-└── README.md
+├── scripts             # launch.sh
+└── src                 # source code
 ```
 
 
