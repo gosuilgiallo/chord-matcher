@@ -20,11 +20,9 @@ Make sure python3.10+ is installed.
 Run on terminal:  
 
 ```bash
-<<<<<<< HEAD
 ./launch.sh
 =======
 chmod +x launch.sh && ./launch.sh
->>>>>>> 130ffe95197deaf7b63c3bce8b6b101e907473f7
 ```
 📝 The script will:
 
@@ -32,7 +30,7 @@ chmod +x launch.sh && ./launch.sh
 - Install the required Python packages
 - Run main.py with the audio file you provide  
 
-📂 Project Structure
+## 📂 Project Structure
 ```
 ├── chord_matching.py
 ├── chords.json

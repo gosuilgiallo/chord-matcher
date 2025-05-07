@@ -1,10 +1,10 @@
 import numpy as np
 import json
+import librosa
 
 # load data from chords.json
 # The JSON file should contain a dictionary where keys are chord names and values are lists of floats representing the chord templates.
-
-with open('chords.json', 'r') as f:
+with open('../data/chords.json', 'r') as f:
     CHORD_TEMPLATES = {k: np.array(v) for k, v in json.load(f).items()}
 
 def chord_template_matching(chroma, min_duration_frames=12):
