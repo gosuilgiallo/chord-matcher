@@ -20,7 +20,7 @@ def chord_template_matching(chroma, min_duration_frames=12):
             if correlation > max_correlation:
                 max_correlation = correlation
                 best_chord = chord_name
-        if max_correlation > 0.55:
+        if max_correlation > 0.4:
             chord_labels[i] = best_chord
             chord_scores[i] = max_correlation
         else:
